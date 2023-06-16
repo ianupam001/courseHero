@@ -1,0 +1,67 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ }
+ h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 66px;
+ }
+ h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 44px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+ }
+ h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+
+ }
+ p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 22px;
+ }
+img{
+    width:100%;
+}
+#main_container{
+  max-width:1400px;
+  }
+
+#intro_column{
+  width:94%;
+  margin-left:3%;
+  }
+
+#current_column{
+  width:94%;
+  margin-left:3%;
+  }
+
+#coming_soon_column{
+  width:94%;
+  margin-left:3%;
+}
+
+@media (min-width: 1015px) {
+  #intro_column{
+    width:30%;
+    }
+
+  #current_column{
+    width:30%;
+    clear:none;
+    margin-left: 2%;
+    }
+
+  #coming_soon_column{
+    width:30%;
+    }
+}
